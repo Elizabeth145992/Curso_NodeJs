@@ -1,4 +1,5 @@
 const os = require('node:os');
+//import os from 'node:os'; // ES Modules
 
 console.log('Sistema Operacional:', os.platform());
 console.log('Versión del SO:', os.release());
